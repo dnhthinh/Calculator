@@ -30,10 +30,10 @@
         {
             this.label1 = new System.Windows.Forms.Label();
             this.txtA = new System.Windows.Forms.TextBox();
-            this.txtB = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
-            this.txtTong = new System.Windows.Forms.TextBox();
+            this.txtB = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
+            this.txtTong = new System.Windows.Forms.TextBox();
             this.btCong = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
@@ -53,13 +53,6 @@
             this.txtA.Size = new System.Drawing.Size(125, 27);
             this.txtA.TabIndex = 1;
             // 
-            // txtB
-            // 
-            this.txtB.Location = new System.Drawing.Point(195, 159);
-            this.txtB.Name = "txtB";
-            this.txtB.Size = new System.Drawing.Size(125, 27);
-            this.txtB.TabIndex = 3;
-            // 
             // label2
             // 
             this.label2.AutoSize = true;
@@ -69,12 +62,12 @@
             this.label2.TabIndex = 2;
             this.label2.Text = "B";
             // 
-            // txtTong
+            // txtB
             // 
-            this.txtTong.Location = new System.Drawing.Point(195, 242);
-            this.txtTong.Name = "txtTong";
-            this.txtTong.Size = new System.Drawing.Size(125, 27);
-            this.txtTong.TabIndex = 5;
+            this.txtB.Location = new System.Drawing.Point(195, 159);
+            this.txtB.Name = "txtB";
+            this.txtB.Size = new System.Drawing.Size(125, 27);
+            this.txtB.TabIndex = 3;
             // 
             // label3
             // 
@@ -84,6 +77,13 @@
             this.label3.Size = new System.Drawing.Size(60, 20);
             this.label3.TabIndex = 4;
             this.label3.Text = "Kết quả";
+            // 
+            // txtTong
+            // 
+            this.txtTong.Location = new System.Drawing.Point(195, 242);
+            this.txtTong.Name = "txtTong";
+            this.txtTong.Size = new System.Drawing.Size(125, 27);
+            this.txtTong.TabIndex = 5;
             // 
             // btCong
             // 
@@ -117,10 +117,10 @@
 
         private Label label1;
         private TextBox txtA;
-        private TextBox txtB;
         private Label label2;
-        private TextBox txtTong;
+        private TextBox txtB;
         private Label label3;
+        private TextBox txtTong;
         private Button btCong;
     }
 }
