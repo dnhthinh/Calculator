@@ -13,5 +13,12 @@ namespace Calculator
             int b = int.Parse(txtB.Text);
             txtTong.Text = (a + b).ToString();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            int a = int.Parse(txtA.Text);
+            int b = int.Parse(txtB.Text);
+            txtTong.Text = (a - b).ToString();
+        }
     }
 }
