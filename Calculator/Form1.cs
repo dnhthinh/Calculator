@@ -6,5 +6,12 @@ namespace Calculator
         {
             InitializeComponent();
         }
+
+        private void btCong_Click(object sender, EventArgs e)
+        {
+            int a = int.Parse(txtA.Text);
+            int b = int.Parse(txtB.Text);
+            txtTong.Text = (a + b).ToString();
+        }
     }
 }
